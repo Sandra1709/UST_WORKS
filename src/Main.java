@@ -1,42 +1,4 @@
-//import java.io.*;
-//import java.lang.String;
-//
-////TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-//// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-//public class Main {
-//    public static void main(String[] args) {
-//        String content= args[0];
-//
-//try
-//{
-//    FileWriter write = new FileWriter("info.txt");
-//    BufferedWriter wr = new BufferedWriter(write);
-//    wr.write(content);
-//
-//    char ch1 = 'a';
-//    while(content ==  ch1)
-//        try{
-//            FileReader rea = new FileReader("info.txt");
-//            BufferedReader buff = new BufferedReader(rea);
-//            String line =buff.readLine();
-//            while(line!=null)
-//            {
-//                System.out.print(line);
-//                line =buff.readLine();
-//            }
-//
-//        }
-//    catch(IOException e)
-//    {
-//        throw new RuntimeException(e);
-//    }
-//}
-//   catch(IOException e)
-//   {
-//   throw new RuntimeException( e);
-//   }
-//    }
-//}
+
 import java.io.*;
 import java.util.Scanner;
 
